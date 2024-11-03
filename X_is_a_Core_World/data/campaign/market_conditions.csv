@@ -1,0 +1,5 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Sector Decay,xcw_sector_decay_lv1,TRUE,,mllhild.xcw.conditions.xcw_SectorDecayLv1,,graphics/icons/markets/xcw_sectordecay_lv1.png,5001
+Sector Decay,xcw_sector_decay_lv2,TRUE,,mllhild.xcw.conditions.xcw_SectorDecayLv2,,graphics/icons/markets/xcw_sectordecay_lv2.png,5002
+Sector Decay,xcw_sector_decay_lv3,TRUE,,mllhild.xcw.conditions.xcw_SectorDecayLv3,,graphics/icons/markets/xcw_sectordecay_lv3.png,5003
+,,,,,,,

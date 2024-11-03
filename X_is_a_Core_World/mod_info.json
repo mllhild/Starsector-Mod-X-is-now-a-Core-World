@@ -1,0 +1,33 @@
+{
+  "id": "xcw", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
+  "name": "X_is_a_Core_World", # Displayed to the player
+  "author": "mllhild",
+  "utility": false,
+  "version": { "major": '1', "minor": '0', "patch": '0' },
+  "description": "Moves all inhabited systems to the core.",
+  "gameVersion": "0.97a-RC6",
+  "jars": [ "jars/X_is_a_Core_World.jar" ],
+  "modPlugin": "mllhild.xcw.xcwModPlugin",
+  "dependencies": [
+    #{
+    #    "id": "lw_lazylib",
+    #    "name": "LazyLib",
+    #    #"version": "2.7b"
+    #},
+    #{
+    #    "id": "MagicLib",
+    #    "name": "MagicLib",
+    #    #"version": "0.34"
+    #},
+    #{
+    #    "id": "shaderLib",
+    #    "name": "GraphicsLib",
+    #    #"version": "1.5.1"
+    #},
+    #{
+    #    "id": "nexerelin",
+    #    "name": "Nexerelin",
+    #    #"version": "1.5.1"
+    #}
+  ],
+}

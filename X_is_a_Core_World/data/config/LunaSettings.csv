@@ -1,0 +1,15 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+,,,,,,,,
+luna_exampleHeader,Example Header,Header,Settings,,,,,Sector Settings
+,,,,,,,,
+xcwRadio,Select destribution,Radio,Move_Inhabited_To_Core,"None, Move_Inhabited_To_Core, All_Random_To_Core, All_Random ","
+None = disables mod
+Move_Inhabited_To_Core = moves all inhabited non core worlds, closer to the core. Suggested min max to 13000 and 17000.
+All_Random_To_Core = moves all inhabited worlds to the core and randomizes their position. Suggested min max to 500 and 16000.
+All_Random = randomizes the position of all systems
+",,,Sector Settings
+radiusMax,Core Outer Limit,Int,13000,,"Speed at which the sectors economies decay.",1000,20000,Sector Settings
+radiusMin,Core Inner Limit,Int,300,,"Speed at which the sectors economies decay.",100,10000,Sector Settings
+,,,,,,,,
+decayBoolean,Enable economic decay,Boolean,false,,Enable sector economy decay over time.,,,Sector Settings
+decayInt,Decay Speed,Int,50,,"Speed at which the sectors economies decay.",0,100,Sector Settings
