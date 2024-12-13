@@ -2,4 +2,10 @@ name,id,planetary,decivRemove,script,desc,icon,order
 Sector Decay,xcw_sector_decay_lv1,TRUE,,mllhild.xcw.conditions.xcw_SectorDecayLv1,,graphics/icons/markets/xcw_sectordecay_lv1.png,5001
 Sector Decay,xcw_sector_decay_lv2,TRUE,,mllhild.xcw.conditions.xcw_SectorDecayLv2,,graphics/icons/markets/xcw_sectordecay_lv2.png,5002
 Sector Decay,xcw_sector_decay_lv3,TRUE,,mllhild.xcw.conditions.xcw_SectorDecayLv3,,graphics/icons/markets/xcw_sectordecay_lv3.png,5003
-,,,,,,,
+Random Core Access Bonus,xcw_access_lv1,TRUE,,mllhild.xcw.conditions.xcw_AccessBonusLv1,,graphics/icons/markets/xcw_placeholder.png,5004
+Random Core Access Bonus,xcw_access_lv2,TRUE,,mllhild.xcw.conditions.xcw_AccessBonusLv2,,graphics/icons/markets/xcw_placeholder.png,5005
+Random Core Access Bonus,xcw_access_lv3,TRUE,,mllhild.xcw.conditions.xcw_AccessBonusLv3,,graphics/icons/markets/xcw_placeholder.png,5006
+Random Core Access Bonus,xcw_access_lv4,TRUE,,mllhild.xcw.conditions.xcw_AccessBonusLv4,,graphics/icons/markets/xcw_placeholder.png,5007
+Random Core Access Bonus,xcw_access_lv5,TRUE,,mllhild.xcw.conditions.xcw_AccessBonusLv5,,graphics/icons/markets/xcw_placeholder.png,5008
+Random Core Access Bonus,xcw_access_lv6,TRUE,,mllhild.xcw.conditions.xcw_AccessBonusLv6,,graphics/icons/markets/xcw_placeholder.png,5009
+Random Core Access Bonus,xcw_access_lv7,TRUE,,mllhild.xcw.conditions.xcw_AccessBonusLv7,,graphics/icons/markets/xcw_placeholder.png,5010

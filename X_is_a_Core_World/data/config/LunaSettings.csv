@@ -8,8 +8,13 @@ Move_Inhabited_To_Core = moves all inhabited non core worlds, closer to the core
 All_Random_To_Core = moves all inhabited worlds to the core and randomizes their position. Suggested min max to 500 and 16000.
 All_Random = randomizes the position of all systems
 ",,,Sector Settings
-radiusMax,Core Outer Limit,Int,13000,,"Speed at which the sectors economies decay.",1000,20000,Sector Settings
-radiusMin,Core Inner Limit,Int,300,,"Speed at which the sectors economies decay.",100,10000,Sector Settings
+radiusMax,Core Outer Limit,Int,13000,,Speed at which the sectors economies decay.,1000,20000,Sector Settings
+radiusMin,Core Inner Limit,Int,300,,Speed at which the sectors economies decay.,100,20000,Sector Settings
+interInhabitedSystemDistanceMin,Min Inter System Distance Inhabited,Int,200,,Minimum Distance between Inhabited Systems,100,20000,Sector Settings
+interNonInhabitedSystemDistanceMin,Min Inter System Distance Uninhabited,Int,200,,Minimum Distance between Uninhabited Systems,100,20000,Sector Settings
 ,,,,,,,,
 decayBoolean,Enable economic decay,Boolean,false,,Enable sector economy decay over time.,,,Sector Settings
-decayInt,Decay Speed,Int,50,,"Speed at which the sectors economies decay.",0,100,Sector Settings
+decayInt,Decay Speed,Int,50,,Speed at which the sectors economies decay.,0,100,Sector Settings
+,,,,,,,,
+accessbonusBoolean,Access Bonus for inhabited worlds,Boolean,false,,Adds market condition to prevent the moved markets from collapse via bonus access,,,Sector Settings
+accessbonusallBoolean,Access Bonus for all worlds,Boolean,false,,Adds market condition to all planets to annull distance to map center access bonus,,,Sector Settings
